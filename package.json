@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@mastra/core": "^0.1.27-alpha.69",
+    "apify-client": "^2.11.1",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.1"
+  },
+  "name": "personal-hiring-assistant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "mastra": "^0.1.57-alpha.106",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
